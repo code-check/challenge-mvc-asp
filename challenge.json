@@ -1,0 +1,11 @@
+﻿{
+    "editable": [
+        "Controllers/*",
+        "App_Start/*"
+    ],
+    "excludes": [
+        ".gitignore",
+        "challenge.json"
+    ],
+    "test": "nunit-console target/challenge-mvc-asp.dll"
+}
